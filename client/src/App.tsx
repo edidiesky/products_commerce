@@ -4,7 +4,8 @@ import "./index.css";
 import {
   Home,
   LayoutIndex,
-  SingleIndex
+  SingleIndex,
+  ShopIndex
 } from "./screens";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Route path={"/"} element={<LayoutIndex />}>
           <Route index element={<Home />} />
           <Route path=":product" element={<SingleIndex />} />
+          <Route path="shop" element={<ShopIndex />} />
         </Route>
       </Routes>
     </div>
