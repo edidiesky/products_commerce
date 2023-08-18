@@ -13,7 +13,7 @@ const ProductHero = () => {
           </div>
           <img src="https://assets.website-files.com/5d85edd208e53eed3ae194a2/5d88e2d6a39a48c1ef6f2e93_fruit-5.png" alt="" className="image image_2" />
           <img src="https://assets.website-files.com/5d85edd208e53eed3ae194a2/5d88e2d911bed5c49169466e_fruit-6.png" alt="" className="image image_3" />
-          <h3 className="fs-30 text-light text-center w-85 auto w-100">
+          <h3 style={{fontWeight:"300"}} className="fs-30 text-light text-center w-85 auto w-100">
             Creamy, nutty, wild, warm-weather flavor from a far-away beach—real coconut blended with cool Greek Yogurt.
           </h3>
         </div>
