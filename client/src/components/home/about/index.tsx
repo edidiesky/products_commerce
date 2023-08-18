@@ -183,8 +183,7 @@ const AboutStyles = styled.div`
   }
   .about_wrapper {
     width:80%;
-    position: sticky;
-  top: 0;
+ 
   }
   .about_top {
     position: relative;
