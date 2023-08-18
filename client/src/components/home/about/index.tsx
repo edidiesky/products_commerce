@@ -98,7 +98,8 @@ const About: React.FC = () => {
                         <div className="card_btn_wrapper flex item-center justify-center">
                             <div className="card_btn fs-18 flex justify-center item-center family1 text-white text-light">
                                 <div className="text">About Us</div>
-                            </div></div>
+                            </div>
+                        </div>
                     </div>
 
 
