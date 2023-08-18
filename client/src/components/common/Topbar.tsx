@@ -7,11 +7,11 @@ const Topbar: React.FC = () => {
     return (
         <TopbarStyles>
             <div className="w-90 auto flex item-center justify-space top_wrapper">
-                <div className="flex item-center gap-2">
+                <div className="flex item-center gap-3">
                     <Magnetic>
                         <div className="icon flex item-center justify-center fs-30 text-dark"><HiBars2 /></div>
                     </Magnetic>
-                    <h3 className="fs-30 text-dark text-light">Productas</h3>
+                    <h3 style={{fontWeight:"300", fontSize:"26px"}} className="fs-30 text-dark text-light">Productos</h3>
                 </div>
 
                 <div className="flex item-center gap-2">

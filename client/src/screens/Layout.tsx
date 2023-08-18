@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from "react-router-dom";
 import Topbar from '../components/common/Topbar';
+import Footer from '../components/home/footer';
 
 
 const LayoutIndex: React.FC = () => {
@@ -8,6 +9,7 @@ const LayoutIndex: React.FC = () => {
         <>
             <Topbar />
             <Outlet />
+            <Footer/>
         </>
     )
 }

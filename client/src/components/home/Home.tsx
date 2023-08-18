@@ -3,8 +3,6 @@ import { styled } from 'styled-components';
 import Hero from './hero';
 import ProductList from './product_list';
 import About from './about';
-import Footer from './footer';
-
 const Home: React.FC = () => {
     return (
         <HomeStyles>
@@ -15,7 +13,7 @@ const Home: React.FC = () => {
             <Hero/>
             <ProductList/>
             <About/>
-            <Footer/>
+           
         </HomeStyles>
     )
 }
