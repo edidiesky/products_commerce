@@ -4,13 +4,12 @@ import Hero from './hero';
 import ProductList from './product_list';
 import About from './about';
 import Footer from './footer';
-import Topbar from '../common/Topbar';
 
 const Home: React.FC = () => {
     return (
         <HomeStyles>
             {/* hero */}
-            <Topbar/>
+          
             {/* top bar */}
             
             <Hero/>

@@ -1,7 +1,10 @@
 import React, { useEffect, useState, lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./index.css";
 import {
-  Home
+  Home,
+  LayoutIndex,
+  SingleIndex
 } from "./screens";
 
 export default function App() {
@@ -9,12 +12,12 @@ export default function App() {
 
   return (
     <div className="based" style={{ height }}>
-      <Home/>
-      {/* <Routes>
-        <Route path={"/"} element={<Layout />}>
+      <Routes>
+        <Route path={"/"} element={<LayoutIndex />}>
           <Route index element={<Home />} />
+          <Route path=":product" element={<SingleIndex />} />
         </Route>
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
