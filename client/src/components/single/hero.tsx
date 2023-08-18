@@ -13,7 +13,7 @@ const ProductHero = () => {
           </div>
           <img src="https://assets.website-files.com/5d85edd208e53eed3ae194a2/5d88e2d6a39a48c1ef6f2e93_fruit-5.png" alt="" className="image image_2" />
           <img src="https://assets.website-files.com/5d85edd208e53eed3ae194a2/5d88e2d911bed5c49169466e_fruit-6.png" alt="" className="image image_3" />
-          <h3 style={{fontWeight:"300"}} className="fs-30 text-light text-center w-85 auto w-100">
+          <h3 style={{ fontWeight: "300" }} className="fs-30 text-light text-center w-85 auto w-100">
             Creamy, nutty, wild, warm-weather flavor from a far-away beach—real coconut blended with cool Greek Yogurt.
           </h3>
         </div>
@@ -38,18 +38,30 @@ const ProductHeroStyles = styled.div`
         bottom: 20%;
         width:24rem;
         height:24rem;
+        @media (max-width:780px) {
+          width:12rem;
+        height:12rem;
+        bottom:40%;
+        right:0%;
+        }
     }
     &.image_3 {
         left: 25%;
         top: 10%;
         width:10rem;
     height:10rem;
+    @media (max-width:780px) {
+      left: 10%;
+       width:7rem;
+    height:7rem;
+    }
     }
   }
   h3 {
     width: 75%;
     @media (max-width:780px) {
     width: 95%;
+    font-size: 24px;
 
     }
   }
@@ -68,6 +80,10 @@ const ProductHeroStyles = styled.div`
   }
   .image_wrappers {
     width: 40%;
+    @media (max-width:780px) {
+    width: 90%;
+
+    }
     .Image_1 {
     width: 65%;
     object-fit:cover;

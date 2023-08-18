@@ -50,7 +50,10 @@ const ProductrecommendationStyles = styled.div`
     h3 {
       transform:translateY(50%);
       transition: all .3s ease;
+      @media (max-width:780px) {
+      transform:translateY(0%);
 
+      }
     }
     .image_wrappers {
     width:55%;
@@ -60,6 +63,10 @@ const ProductrecommendationStyles = styled.div`
     img {
       transform:translateY(30%);
       transition: all .3s ease;
+      @media (max-width:780px) {
+      transform:translateY(0%);
+
+      }
     }
   }
     &:hover {
