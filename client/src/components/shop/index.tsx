@@ -19,7 +19,7 @@ const ShopStyles = styled.div`
   position: relative;
   min-height: 100vh;
   background-color: #FCDDE8;
-  padding: 6rem 0;
+  padding: 10rem 0;
 
   .shop_wrapper {
     width:85%;

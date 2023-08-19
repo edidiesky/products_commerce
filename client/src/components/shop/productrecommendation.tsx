@@ -135,7 +135,7 @@ const ProductCard = styled.div<ProductCardProps>`
     }
     
     .image_wrappers {
-        width: 80%;
+        width: 70%;
         position: relative;
         transform:translateY(40%);
         transition: all .4s ease;
@@ -162,6 +162,9 @@ const ProductrecommendationStyles = styled.div`
   width: 100%;
   position: relative;
   z-index: 30;
+  .w-85 {
+    /* width: 80% !important; */
+  }
   .left {
     width:50%;
     @media (max-width:780px) {
@@ -225,11 +228,14 @@ const ProductrecommendationStyles = styled.div`
     }
   }
 
+  h2, .wrapper {
+    width:70% !important;
+  }
 
   .wrapper {
     grid-template-columns: 1fr 1fr;
     grid-gap: .2rem;
-    width:80%;
+    
     max-width: 1480px;
     @media (max-width:780px) {
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
