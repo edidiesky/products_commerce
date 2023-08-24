@@ -19,7 +19,7 @@ const list = [
 
 const Footer: React.FC = () => {
     return (
-        <FooterStyles className="flex auto justify-center item-center">
+        <FooterStyles data-scroll-section className="flex auto justify-center item-center">
             {/* Header */}
             <div className="footer_wrapper w-85 auto flex item-start">
                 <div className="footer_left flex auto column gap-2 item-start w-100">

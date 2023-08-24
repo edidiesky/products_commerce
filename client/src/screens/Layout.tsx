@@ -9,7 +9,6 @@ const LayoutIndex: React.FC = () => {
         <>
             <Topbar />
             <Outlet />
-            <Footer/>
         </>
     )
 }

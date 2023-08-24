@@ -1,21 +1,20 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { styled } from 'styled-components';
+import LocomotiveScroll from "locomotive-scroll";
 import Hero from './hero';
 import ProductList from './product_list';
 import About from './about';
 const Home: React.FC = () => {
-    return (
-        <HomeStyles>
-            {/* hero */}
-          
-            {/* top bar */}
-            
-            <Hero/>
-            <ProductList/>
-            <About/>
-           
-        </HomeStyles>
-    )
+
+  return (
+    <HomeStyles>
+
+      <Hero />
+      <ProductList />
+      <About />
+
+    </HomeStyles>
+  )
 }
 
 const HomeStyles = styled.div`

@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 
 const Hero: React.FC = () => {
     return (
-        <HeroStyles className="flex h-100 w-100 justify-center item-center">
+        <HeroStyles data-scroll-section className="flex h-100 w-100 justify-center item-center">
             {/* Header */}
             <div className="flex hero_wrapper h-100 w-90 auto justify-center item-center">
                 <h1 className="w-85 auto family2 uppercase text text-center text-white">Non-Diary Blend Ice Cream</h1>

@@ -41,7 +41,7 @@ const aboutdata2 = [
 ]
 const About: React.FC = () => {
     return (
-        <AboutStyles className="flex auto justify-center item-center">
+        <AboutStyles data-scroll-section className="flex auto justify-center item-center">
             {/* Header */}
             <div className="about_wrapper w-85 auto flex column">
                 <div className="about_top flex auto justify-center item-center w-100">

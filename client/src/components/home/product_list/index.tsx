@@ -29,10 +29,9 @@ const product = [
 
 const ProductList: React.FC = () => {
     return (
-        <PorductListStyles>
+        <PorductListStyles data-scroll-section>
             {/* Header */}
             <div className="flex hero_wrapper column  auto justify-center item-center">
-                {/* <img src="https://assets.website-files.com/5d820ccf1097dd2dccadc680/5d823ee3251dccb171eea802_fruit-7.png" alt="" className="image image_1" /> */}
 
                 {
                     product.map((x, index) => {
@@ -42,7 +41,6 @@ const ProductList: React.FC = () => {
                                     <img src={x.image} alt="" className="image auto" />
                                     <img src={x.subimage1} alt="" className="images image_2" />
                                     <img src={x.subimage2} alt="" className="images image_3" />
-s
                                     <div className="flex card_btn_wrapper w-100 justify-center item-center">
                                         <ProductCardBtn backgroundColor={x.background} className="fs-20 flex justify-center item-center family1 text-white text-light">
                                             <div className="text">View Product</div>
